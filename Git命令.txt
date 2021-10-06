@@ -1,0 +1,21 @@
+Git命令
+1、git init（初始化git）
+2、git add . (添加到暂存区)
+3、git commit -m "注释" （添加到本地数据库）
+4、git commit --amend （修改本地数据库文件）
+5、git push （上传到github服务器）
+
+
+1、git status （查看当前状态）
+2、git branch dev (建立分支dev)
+3、git checkout dev (切换分支dev)
+4、git log
+5、git log --oneline -6
+6、git rflog（所有以往的版本）
+7、git reset --hard HEAD~2 (返回过去第三行的版本)
+
+
+1、git merge dev（切换到master合并分支dev提供的版本）
+2、git commit -m "merged by leader"（让领导选择---没有尝试）
+
+
