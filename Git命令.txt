@@ -1,9 +1,19 @@
 Git命令
+
+克隆保存在本地和上传
+$ git clone ...
+...
+...
+$ git push
+
+
 1、git init（初始化git）
 2、git add . (添加到暂存区)
-3、git commit -m "注释" （添加到本地数据库）
-4、git commit --amend （修改本地数据库文件）
-5、git push （上传到github服务器）
+3、git reset HEAD index.html
+    或者：git checkout --index.html
+4、git commit -m "注释" （添加到本地数据库）
+5、git commit --amend （修改本地数据库文件）
+6、git push （上传到github服务器）
 
 
 1、git status （查看当前状态）
