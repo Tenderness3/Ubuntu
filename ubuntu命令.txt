@@ -1,0 +1,1 @@
+gedit a.txt   以文本形式打开txt文件
