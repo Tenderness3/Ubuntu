@@ -1,1 +1,4 @@
 gedit a.txt   以文本形式打开txt文件
+apt list --installed   查看已安装的软件列表
+sudo apt-get purge xxx  删除xxx软件
+
