@@ -37,5 +37,14 @@ $ git push
 2、git commit -m "merged by leader"（让领导选择---没有尝试）
 ~~~
 
+## 解决冲突
+~~~bash
+ git pull origin （查找github上层）
+ git status （查看状态）
+ 按照提示操作删除
+ git commit -m "发生冲突"  （提交这次冲突的变化）
+ git push （上传）
+ 
+ ~~~
 
 
