@@ -10,9 +10,9 @@ $ git push
 1、git init（初始化git）
 2、git add . (添加到暂存区)
 3、git reset HEAD index.html
-    或者：git checkout --index.html
+    或者：git checkout --index.html  (取消暂存区)
 4、git commit -m "注释" （添加到本地数据库）
-5、git commit --amend （修改本地数据库文件）
+5、git commit --amend （假如想覆盖上次上传，直接add，然后commit一下，然后输入git commit --amend会进入一个特殊的场景，展示修改本地数据库文件,修改后既可以git push）
 6、git push （上传到github服务器）
 
 
