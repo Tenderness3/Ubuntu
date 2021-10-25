@@ -1,7 +1,7 @@
 # Git命令
 --------------------
 
-1. 克隆保存本地上传
+### 克隆保存本地上传
 >clone克隆
 ```python
 $ git clone ...
@@ -11,7 +11,7 @@ $ git push
 ```
 
 
-2. 上传git步骤
+### 上传git步骤
 >流程
 ```python
 1、git init（初始化git）
@@ -26,7 +26,7 @@ $ git push
 6、git push （上传到github服务器）
 ```
 
-3. git细节
+### git细节
 >分支
 ```python
 1、git status （查看当前状态）
@@ -52,7 +52,7 @@ $ git push
 3、然后git push
 ```
 
-4. 解决错误
+### 解决错误
 >解决冲突
 ```python
  1、git pull origin （查找github上层）
