@@ -1,7 +1,7 @@
 # ubuntu命令
 ----
 
-1. 简单ubuntu命令
+### 简单ubuntu命令
 >gedit应用
 ```bash
 gedit a.txt   以文本形式打开txt文件
