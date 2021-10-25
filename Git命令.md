@@ -2,7 +2,7 @@
 --------------------
 
 ### 克隆保存本地上传
->clone克隆
+>1、clone克隆
 ```python
 $ git clone ...
 ...
@@ -12,7 +12,7 @@ $ git push
 
 
 ### 上传git步骤
->流程
+>1、流程
 ```python
 1、git init（初始化git）
 2、git add . (添加到暂存区)
@@ -26,34 +26,40 @@ $ git push
 6、git push （上传到github服务器）
 ```
 
+
+
 ### git细节
->分支
+>1、分支
 ```python
 1、git status （查看当前状态）
 2、git branch dev (建立分支dev)
 3、git checkout dev (切换分支dev)
 ```
->查看以往commit
+
+
+>2、查看以往commit
 ```python
 1、git log
 2、git log --oneline -6
 3、git rflog（所有以往的版本）
 4、git reset --hard HEAD~2 (返回过去第三行的版本)
 ```
->合并分支
+>3、合并分支
 ```python
 1、git merge dev（切换到master合并分支dev提供的版本）
 2、git commit -m "merged by leader"（让领导选择---没有尝试）
 ```
->正确上传修改文件后缀名的步骤
+>4、正确上传修改文件后缀名的步骤
 ```python
 1、正常add
 2、分别对不同文件commit
 3、然后git push
 ```
 
+
+
 ### 解决错误
->解决冲突
+>1、解决冲突
 ```python
  1、git pull origin （查找github上层）
  2、git status （查看状态）
