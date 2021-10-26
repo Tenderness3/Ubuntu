@@ -26,6 +26,20 @@ $ git push
 6、git push （上传到github服务器）
 ```
 
+>2、添加子文件夹
+```python
+1、mkdir Text (创建文件夹，不用git init)
+2、cd Text (进入文件夹)
+3、touch 目标文件 (在子文件夹里面创建子文件夹)
+4、cd .. (返回上一级目录)
+
+开始上传流程
+5、git add .
+...
+...
+...
+```
+
 
 
 ### git细节
