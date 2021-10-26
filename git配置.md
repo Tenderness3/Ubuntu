@@ -1,5 +1,5 @@
 # Git 配置
-
+--------
 ### git登录配置
 >1、配置用户名、邮箱
 ```python
@@ -29,4 +29,5 @@ git status (查看状态)
 ```python
 url = git@gitee.com:liu-rushi/ubuntu.git
 git remote -v （查看当前仓库信息）
+未配置成功！！！！！
 ```
